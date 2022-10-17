@@ -1,6 +1,8 @@
 #include "Globals.h"
 #include "Application.h"
 #include "ModuleScene.h"
+#include "ModuleTextures.h"
+#include "ModuleRender.h"
 #include "SDL/include/SDL.h"
 
 ModuleScene::ModuleScene()
@@ -16,8 +18,9 @@ bool ModuleScene::Init()
 {
 	LOG("Creating Scene context");
 	bool ret = true;
-
-	if (ret == false)
+	texture = App->textures->Load("\ken_stage.png");
+	App->renderer->Blit(texture,0,0,);
+	if (texture == false)
 	{
 		LOG("Scene could not be created! SDL_Error: %s\n", SDL_GetError());
 		ret = false;
