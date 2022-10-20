@@ -3,6 +3,7 @@
 #include "Application.h"
 #include "ModuleScene.h"
 #include "ModuleTextures.h"
+#include "ModuleWindow.h"
 #include "ModuleRender.h"
 #include "SDL/include/SDL.h"
 
@@ -44,8 +45,7 @@ update_status ModuleScene::Update()
 	SDL_Rect rect;
 	rect.x = 73;
 	rect.y = 212;
-	rect.w = 770;
-	rect.h = 180;
+	SDL_GetWindowSize(App->window->window, &rect.w, &rect.h);
 	App->renderer->Blit(texture, 0, 0, &rect);
 	return UPDATE_CONTINUE;
 }

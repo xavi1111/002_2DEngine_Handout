@@ -1,3 +1,11 @@
-﻿  ModuleScene.cpp
-C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(22,32): warning C4129: 'k': unrecognized character escape sequence
+﻿  Application.cpp
+  Main.cpp
+  ModuleInput.cpp
+  ModuleRender.cpp
+  ModuleScene.cpp
+C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(23,32): warning C4129: 'k': unrecognized character escape sequence
+  ModuleTextures.cpp
+  ModuleWindow.cpp
+  log.cpp
+  Generating Code...
   SDL Game.vcxproj -> C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\Debug\SDL Game - Master 1.exe
