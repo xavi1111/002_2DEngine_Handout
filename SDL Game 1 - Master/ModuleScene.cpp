@@ -1,5 +1,6 @@
 #include "Globals.h"
 #include "Application.h"
+#include "Application.h"
 #include "ModuleScene.h"
 #include "ModuleTextures.h"
 #include "ModuleRender.h"
@@ -19,7 +20,8 @@ bool ModuleScene::Init()
 	LOG("Creating Scene context");
 	bool ret = true;
 	texture = App->textures->Load("\ken_stage.png");
-	App->renderer->Blit(texture,0,0,);
+	
+	
 	if (texture == false)
 	{
 		LOG("Scene could not be created! SDL_Error: %s\n", SDL_GetError());
@@ -39,8 +41,12 @@ update_status ModuleScene::PreUpdate()
 
 update_status ModuleScene::Update()
 {
-
-	
+	SDL_Rect rect;
+	rect.x = 73;
+	rect.y = 212;
+	rect.w = 770;
+	rect.h = 180;
+	App->renderer->Blit(texture, 0, 0, &rect);
 	return UPDATE_CONTINUE;
 }
 
