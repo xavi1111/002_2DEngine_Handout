@@ -1,11 +1,4 @@
-﻿  Application.cpp
-  Main.cpp
-  ModuleInput.cpp
-  ModuleRender.cpp
-  ModuleScene.cpp
-C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(23,32): warning C4129: 'k': unrecognized character escape sequence
-  ModuleTextures.cpp
-  ModuleWindow.cpp
-  log.cpp
-  Generating Code...
+﻿  ModuleScene.cpp
+C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(26,41): warning C4129: 's': unrecognized character escape sequence
+C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(34,41): warning C4129: 'F': unrecognized character escape sequence
   SDL Game.vcxproj -> C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\Debug\SDL Game - Master 1.exe
