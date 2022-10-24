@@ -1,4 +1,13 @@
-﻿  ModuleScene.cpp
-C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(26,41): warning C4129: 's': unrecognized character escape sequence
-C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(34,41): warning C4129: 'F': unrecognized character escape sequence
+﻿  Application.cpp
+  Main.cpp
+  ModuleInput.cpp
+  ModuleRender.cpp
+  ModuleScene.cpp
+C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(26,33): warning C4129: 'k': unrecognized character escape sequence
+C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(66,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\ModuleScene.cpp(67,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ModuleTextures.cpp
+  ModuleWindow.cpp
+  log.cpp
+  Generating Code...
   SDL Game.vcxproj -> C:\Users\xavierlc6\Documents\002_2DEngine_Handout\SDL Game 1 - Master\Debug\SDL Game - Master 1.exe

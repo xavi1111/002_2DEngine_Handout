@@ -19,8 +19,7 @@ public:
 	bool CleanUp();
 
 public:
-	std::list<SDL_Texture*> textures;
-	std::list<SDL_Rect*> rects;
+	SDL_Texture* textures;
 private:
 	int x = 0;
 };
