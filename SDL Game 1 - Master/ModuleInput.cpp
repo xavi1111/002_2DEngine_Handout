@@ -1,6 +1,7 @@
 #include "Globals.h"
 #include "Application.h"
 #include "ModuleInput.h"
+#include "ModuleScene.h"
 #include "SDL/include/SDL.h"
 
 ModuleInput::ModuleInput()
@@ -36,7 +37,12 @@ update_status ModuleInput::Update()
 	if (keyboard[SDL_SCANCODE_ESCAPE]) {
 		return UPDATE_STOP;
 	}
-
+	else if(keyboard[SDL_SCANCODE_D]) {
+		App->scene->updateX(5);
+	}
+	else if (keyboard[SDL_SCANCODE_A]) {
+		App->scene->updateX(-5);
+	}
 	return UPDATE_CONTINUE;
 }
 
